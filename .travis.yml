@@ -34,6 +34,7 @@ jobs:
         provider: cloudfoundry
         api: $CF_API_URL
         username: $CF_USERNAME
-        password: $CF_PASSWORD
+        password: $CFPASSWORD
         organization: $CF_ORG
         space: $CF_SPACE
+
