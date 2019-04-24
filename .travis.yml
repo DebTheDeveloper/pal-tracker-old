@@ -8,7 +8,7 @@ if: tag IS blank
 
 
 jobs:
-  include:
+  cinclude:
     - stage: build and publish
       language: java
       jdk: openjdk11
